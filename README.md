@@ -3,6 +3,29 @@
 README-Auditor is a Python CLI tool that audits GitHub README files using explicit, rule based checks.
 It reports specific findings with the rule id, the reason, and an actionable suggestion.
 
+## Why This Project Exists
+
+I built **README-Auditor** out of frustration.
+
+Over time I noticed a pattern: genuinely useful projects were being ignored, misunderstood, or misused not because the code was bad, but because the README failed the reader. Missing context. Overconfident claims. Setup steps that assumed prior knowledge. No examples. No limits stated.  
+
+README-Auditor exists to act as a second pair of eyes.
+
+It does not try to write your README for you.  
+It does not enforce style, tone, or marketing language.  
+It asks questions on behalf of your future users:
+
+- Who is this actually for?
+- What assumptions are you making?
+- What can this *not* do?
+- Are your claims falsifiable?
+- Could someone succeed here without already knowing the system?
+
+The goal is respect: respect for the reader’s time, intelligence, and expectations.
+
+If this tool helps even one project avoid confusion, then it has done its job.
+
+
 ## Installation
 
 ```bash
