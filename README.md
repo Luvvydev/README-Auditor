@@ -5,8 +5,6 @@ It reports specific findings with the rule id, the reason, and an actionable sug
 
 ## Why This Project Exists
 
-I built **README-Auditor** out of frustration.
-
 Over time I noticed a pattern: genuinely useful projects were being ignored, misunderstood, or misused not because the code was bad, but because the README failed the reader. Missing context. Overconfident claims. Setup steps that assumed prior knowledge. No examples. No limits stated.  
 
 README-Auditor exists to act as a second pair of eyes.
