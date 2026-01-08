@@ -1,0 +1,19 @@
+[general]
+severity_threshold = "warning"
+max_issues = 50
+fail_on = "error"
+
+[rules.vague_claims]
+enabled = true
+severity = "warning"
+custom_adjectives = ["blazing", "next-gen"]
+
+[rules.missing_sections]
+enabled = true
+required = ["installation", "usage", "license"]
+optional = ["contributing", "changelog"]
+
+[output]
+format = "human"
+color = true
+show_suggestions = true
