@@ -1,5 +1,6 @@
 # macOS
 .DS_Store
+.coverage
 
 # python
 __pycache__/
